@@ -1,10 +1,10 @@
 import React from "react";
-import './cta.css';
-const cta = () => {
+import './Footer.css';
+const Footer = () => {
     return (
         <div>
-            <h1>CTA!</h1>
+            <h1>Footer!</h1>
         </div>
     );      }
- export default cta ;
+ export default Footer;
  // Add a closing curly brace here

@@ -1,10 +1,10 @@
 import React from "react";
 import './article.css';
-const App = () => {
+const Article = () => {
     return (
         <div>
             <h1>Article!</h1>
         </div>
     );      }
- export default App;
+ export default Article;
  // Add a closing curly brace here

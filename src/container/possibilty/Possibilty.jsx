@@ -1,10 +1,10 @@
 import React from "react";
-import './cta.css';
-const cta = () => {
+import './Possibilty.css';
+const possibility = () => {
     return (
         <div>
-            <h1>CTA!</h1>
+            <h1>Possibilty!</h1>
         </div>
     );      }
- export default cta ;
+ export default possibility;
  // Add a closing curly brace here

@@ -1,10 +1,10 @@
 import React from "react";
-import './cta.css';
-const cta = () => {
+import './Header.css';
+const Header = () => {
     return (
         <div>
-            <h1>CTA!</h1>
+            <h1>Header!</h1>
         </div>
     );      }
- export default cta ;
+ export default Header;
  // Add a closing curly brace here

@@ -1,10 +1,10 @@
 import React from "react";
-import './cta.css';
-const cta = () => {
+import './WhatChatai.css';
+const WhatChatai = () => {
     return (
         <div>
-            <h1>CTA!</h1>
+            <h1>WhatChatai!</h1>
         </div>
     );      }
- export default cta ;
+ export default WhatChatai;
  // Add a closing curly brace here
