@@ -16,3 +16,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+// https://youtu.be/F627pKNUCVQ?list=PLqDtOt61G2Xg7tb7xfti-905Yoz8ieRU5&t=2595
