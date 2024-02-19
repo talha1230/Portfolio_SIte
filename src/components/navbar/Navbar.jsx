@@ -19,6 +19,10 @@ const Navbar = () => {
                     <p> <a href="#blog">Blog</a></p>
                     <p> <a href="#whatChatai">What is Chatai</a></p>
                 </div>
+                <div className="chatai_navbar-sign">
+                <p>Sign in</p>
+                <button type="button">Sign Up</button>
+                    </div>
             </div>
         </div>
     );      
