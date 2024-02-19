@@ -10,11 +10,16 @@ const Navbar = () => {
                 <div className="chatai_navbar-link-logo">
                     <img src={logo} alt="Chat AI" />
                 </div>
+                <div className="chatai_navbar-link-container">
+                    <p> <a href="#home">Home</a></p>
+                    <p> <a href="#features">Features</a></p>
+                    <p> <a href="#possibility">Chat AI</a></p>
+                    <p> <a href="#blog">Blog</a></p>
+                    <p> <a href="#whatChatai">What is Chatai</a></p>
+                </div>
             </div>
         </div>
     );      
 };
 
 export default Navbar;
-
-// https://youtu.be/F627pKNUCVQ?list=PLqDtOt61G2Xg7tb7xfti-905Yoz8ieRU5&t=2595
