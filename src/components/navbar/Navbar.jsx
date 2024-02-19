@@ -8,7 +8,9 @@ const Navbar = () => {
         <div className="chatai_navbar">
             <div className="chatai_navbar-links">
                 <div className="chatai_navbar-link-logo">
-                    <img src={logo} alt="Chat AI" />
+                    <a href="#home">
+                        <img src={logo} alt="Chat AI" />
+                    </a>
                 </div>
                 <div className="chatai_navbar-link-container">
                     <p> <a href="#home">Home</a></p>

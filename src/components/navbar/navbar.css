@@ -1,10 +1,16 @@
 .chatai_navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2rem 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
 }
-.chatai_navbar-link{
+
+.chatai_navbar-links {
+    display: flex;
+    align-items: center;
+}
+
+.chatai_navbar-link {
     color: var(--color-text);
     font-size: 1.5rem;
     font-weight: 500;
@@ -12,10 +18,36 @@
     margin: 0 1.5rem;
     transition: color 0.3s ease;
 }
-.chatai_navbar-link-logo{
+
+.chatai_navbar-link-logo {
     margin-right: 2rem;
 }
-.chatai_navbar-link-logo img{
+
+.chatai_navbar-link-logo img {
     width: 62.56px;
     height: 16.02px;
+}
+
+.chatai_navbar-link-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.chatai_navbar-sign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.chatai_navbar-link-container p,
+.chatai_navbar-sign p,
+.chatai_navbar-menu_container p {
+    color: azure;
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer;
 }
