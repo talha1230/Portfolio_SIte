@@ -37,6 +37,25 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    
+    
+}
+.chatai_navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+
+.chatai_navbar-links {
+    display: flex;
+    align-items: center;
+}
+
+.chatai_navbar-link-container,
+.chatai_navbar-sign {
+    display: flex;
+    align-items: center;
 }
 
 .chatai_navbar-link-container p,
@@ -50,5 +69,59 @@
     text-transform: capitalize;
     margin: 0 1rem;
     cursor: pointer;
+
 }
 /*https://www.youtube.com/watch?v=F627pKNUCVQ&list=PLqDtOt61G2Xg7tb7xfti-905Yoz8ieRU5&t=3027s */
+.chatai_navbar-sign button,
+.chatai_navbar-menu_container button {
+
+    font-family: var(--font-family);
+    width: 152px;
+    height: 58px;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    background: #FF4820; 
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    word-wrap: break-word;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+/* existing styles */
+
+@media screen and (max-width: 768px) {
+    .chatai_navbar {
+        flex-direction: column;
+        align-items: flex-start; /* align items to the left */
+    }
+
+    .chatai_navbar-links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .chatai_navbar-link-container {
+        display: none;
+    }
+
+    .chatai_navbar-link-container.open {
+        display: block;
+    }
+
+    .chatai_navbar-sign {
+        flex-direction: column; /* stack sign in and sign up vertically */
+    }
+
+    .chatai_navbar-sign p,
+    .chatai_navbar-sign button {
+        width: 100%; /* make sign in and sign up full width */
+        padding: 10px; /* add some padding */
+        text-align: center; /* center the text */
+    }
+   
+    .menu-icon {
+        display: block;
+    }
+}
