@@ -59,6 +59,31 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However, we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+
+
+## 🎉 Usage
+
+Feel free to explore the different sections of the website using the navigation menu. Click on project thumbnails to learn more about each project and don't forget to reach out if you have any questions or feedback!
+
+## 🤝 Contributing
+
+I welcome contributions from the community! Whether it's bug fixes, feature enhancements, or new project ideas, feel free to open a pull request or submit an issue to get started.
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## 📬 Contact
+
+If you'd like to connect, you can reach me via:
+
+- Email: [Mail](mailto:b09230027@student.unimy.edu.my)
+
+- LinkedIn: [Talha Muhammad](https://www.linkedin.com/in/talha1230)
+- Instagram: [@YourHandle](https://www.instagram.com/talhakhan.exe/)
+
+Happy exploring! ✨
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
@@ -88,27 +113,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-## 🎉 Usage
-
-Feel free to explore the different sections of the website using the navigation menu. Click on project thumbnails to learn more about each project and don't forget to reach out if you have any questions or feedback!
-
-## 🤝 Contributing
-
-I welcome contributions from the community! Whether it's bug fixes, feature enhancements, or new project ideas, feel free to open a pull request or submit an issue to get started.
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## 📬 Contact
-
-If you'd like to connect, you can reach me via:
-
-- Email: [Mail](mailto:b09230027@student.unimy.edu.my)
-
-- LinkedIn: [Talha Muhammad](https://www.linkedin.com/in/talha1230)
-- Instagram: [@YourHandle](https://www.instagram.com/talhakhan.exe/)
-
-Happy exploring! ✨
