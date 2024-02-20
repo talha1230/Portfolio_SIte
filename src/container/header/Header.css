@@ -19,6 +19,7 @@
     font-size: 62px;
     line-height: 75px;
     letter-spacing: -0.04em;
+    color: #329ad7;
 }
 
 .gpt3__header-content p {
@@ -169,15 +170,17 @@
 }
 
 .gpt3__header-image {
-    flex: 1;
+    flex: 0.6;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .gpt3__header-image img {
-    width: 100%;
-    height: 100%;
+    width: 93%;
+    height: 93%;
+    border-radius: 20px;
+    box-shadow: -20px 19px 20px 3px #67daf433;
 }
 
 @media screen and (max-width: 1050px) {

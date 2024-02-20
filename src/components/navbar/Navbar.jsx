@@ -19,7 +19,7 @@ const Navbar = () => {
                     <p> <a href="#features">Features</a></p>
                     <p> <a href="#possibility">Chat AI</a></p>
                     <p> <a href="#blog">Blog</a></p>
-                    <p> <a href="#whatChatai">What is Chatai</a></p>
+                    <p> <a href="#whatChatai">Mission</a></p>
                     <div className="chatai_navbar-sign">
                         <p>Sign in</p>
                         <button type="button">Sign Up</button>
