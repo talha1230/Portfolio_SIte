@@ -1,6 +1,6 @@
 import React from "react";
 //all components from the components folder
-import { Navbar, Article as Brand, CTA } from "./components";
+import { Navbar, brand as Brand, CTA } from "./components";
 import { blog as Blog, features as Feature, footer as Footer, Header, possibility as Possibility, WhatChatai } from "./container";
 import 'C:/Users/Talha PC/chatai/src/App.css';
 import './index.css'
