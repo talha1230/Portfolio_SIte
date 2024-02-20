@@ -71,7 +71,6 @@
     cursor: pointer;
 
 }
-/*https://www.youtube.com/watch?v=F627pKNUCVQ&list=PLqDtOt61G2Xg7tb7xfti-905Yoz8ieRU5&t=3027s */
 .chatai_navbar-sign button,
 .chatai_navbar-menu_container button {
 
@@ -116,12 +115,19 @@
 
     .chatai_navbar-sign p,
     .chatai_navbar-sign button {
-        width: 100%; /* make sign in and sign up full width */
+        width: 65%; /* make sign in and sign up full width */
         padding: 10px; /* add some padding */
         text-align: center; /* center the text */
     }
-   
+    .chatai_navbar-sign {
+        flex-direction: column;
+        
+
+    }
     .menu-icon {
         display: block;
+        color: white;
+        left: 100%;
+        
     }
 }
