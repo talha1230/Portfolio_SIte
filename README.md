@@ -1,7 +1,5 @@
 # Getting Started with Create React App
 
-brother, royalties are two types , either fixed or variable, so if kfc is taking fixed royalty charge so even if you dont buy from them , the franchise owner (a local pakistani man) has to pay the fixed amount to the headquarters? Who bears the loss? The franchise owner. Moreover, suppose that it is a variable royalty fee which is charged as % of sales , Even then the headquarter or in other terms the franchisor has to pay the cost of advertisement etc, so i dont understand why would a fasrfood chain be interested in a state of war? WAR IS THEIR LEAST FAVOURABLE THING TO HAPPEN. think twice before you comment on my knowledge:)
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
