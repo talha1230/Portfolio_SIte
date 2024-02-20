@@ -37,8 +37,9 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    
-    
+    position: absolute; /* Add this line */
+    Right: 0; /* Add this line */
+    padding-Right: 24px;
 }
 .chatai_navbar {
     display: flex;
