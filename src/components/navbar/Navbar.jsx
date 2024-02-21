@@ -16,7 +16,7 @@ const Navbar = () => {
                 </div>
                 <div className={`chatai_navbar-link-container ${isOpen ? 'open' : ''}`}>
                     <p> <a href="#home">Home</a></p>
-                    <p> <a href="#features">Features</a></p>
+                    <p> <a href="#Features">Features</a></p>
                     <p> <a href="#possibility">Chat AI</a></p>
                     <p> <a href="#blog">Blog</a></p>
                     <p> <a href="#whatChatai">Mission</a></p>
