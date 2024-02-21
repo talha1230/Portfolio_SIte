@@ -2,7 +2,7 @@
   "name": "chatai",
   "version": "0.1.0",
   "private": false,
-  "homepage": "http://talha1230.github.io/Portfolio_SIte" ,
+  "homepage": "http://blog.talha-khan.com/" ,
    "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
