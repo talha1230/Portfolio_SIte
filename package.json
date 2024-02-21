@@ -1,7 +1,7 @@
 {
   "name": "chatai",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "http://talha1230.github.io/Portfolio_SIte" ,
    "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
