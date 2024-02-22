@@ -22,11 +22,10 @@
 
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-.gpt3__features-container__feature
+
 .gpt3__whatgpt3-feature {
     display: flex;
 }
-
 
 /* Customizing feature component as per needs */
 .gpt3__whatgpt3-feature .gpt3__features-container__feature {
@@ -85,55 +84,6 @@
 .gpt3__whatgpt3-container .gpt3__features-container_feature-text {
     margin-top: 0.5rem;
 }
-/*Explore Button CSS */
-.button {
-    width: 168px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 10px;
-    font-family: --var(font-family);
-    background-color: rgb(254, 254, 254);
-    border-radius: 15px;
-    color: rgb(19, 19, 19);
-    font-weight: 750;
-    border: none;
-    position: relative;
-    cursor: pointer;
-    transition-duration: .2s;
-    box-shadow: 5px 5px 10px rgba(243, 241, 241, 0.654);
-    padding-left: 8px;
-    transition-duration: .5s;
-  }
-  
-  .svgIcon {
-    height: 25px;
-    transition-duration: 1.5s;
-  }
-  
-  .bell path {
-    fill: rgb(19, 19, 19);
-  }
-  
-  .button:hover {
-    background-color: rgb(192, 255, 20);
-    transition-duration: .5s;
-  }
-  
-  .button:active {
-    transform: scale(0.97);
-    transition-duration: .2s;
-  }
-  
-  .button:hover .svgIcon {
-    transform: rotate(250deg);
-    transition-duration: 1.5s;
-  }
-  
-  
-
-/*CSS for mobile screen */
 
 @media screen and (max-width: 850px) {
     .gpt3__whatgpt3-heading {

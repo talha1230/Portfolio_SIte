@@ -1,6 +1,5 @@
-
-export { default as Article } from 'C:/Users/Talha PC/chatai/src/components/article/Article';
+export { default as Article } from './article/Article';
+export { default as Brand } from './brand/Brand';
+export { default as CTA } from './cta/CTA';
+export { default as Feature } from './feature/Feature';
 export { default as Navbar } from './navbar/Navbar';
-export { default as CTA } from 'C:/Users/Talha PC/chatai/src/components/cta/CTA';
-export { default as Feature } from 'C:/Users/Talha PC/chatai/src/components/feature/Feature';
-export { default as brand } from 'C:/Users/Talha PC/chatai/src/components/brand/Brand';
