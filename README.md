@@ -60,6 +60,7 @@ If you'd like to connect, you can reach me via:
 
 - LinkedIn: [Talha Muhammad](https://www.linkedin.com/in/talha1230)
 - Instagram: [Talha Khan](https://www.instagram.com/talhakhan.exe/)
+
 - ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
