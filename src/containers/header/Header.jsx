@@ -12,11 +12,11 @@ const Header = () => (
     </video>
 
     <div className="gpt3__header-content">
-      <h1 className="gradient__text">Hello, Beautiful! Welcome to My World</h1>
-      <p>Step into a world where creativity meets passion. With me, let's explore the endless possibilities of technology and create experiences that are not just extraordinary, but also close to the heart. Together, we'll make dreams come true.</p>
+      <h1 className="gradient__text">Hey! Welcome to My Portfolio Site</h1>
+      <p>Embark on a journey of innovation and creativity with me as your guide. Let's harness the power of GPT-3 OpenAI to build extraordinary experiences and bring your visions to life. Together, we'll explore the boundless possibilities of technology and craft solutions that push the boundaries of what's possible.</p>
 
       <div className="gpt3__header-content__input">
-        <button type="button" onClick={() => window.open("https://talhakhan.me/")}>
+        <button type="button">  
           <svg
             height="24"
             width="24"
@@ -29,13 +29,13 @@ const Header = () => (
               fill="currentColor"
             ></path>
           </svg>
-          <span>Discover Our Journey</span>
+          <span>Explore My Projects</span>
         </button>
       </div>
 
       <div className="gpt3__header-content__people">
         <img src={people} alt="" />
-        <p>From Talha To Rabiya❤.</p>
+        <p>Together, your contributions and expertise will bolster our capabilities and drive our success to new heights.</p>
       </div>
     </div>
   </div>
