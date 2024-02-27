@@ -16,7 +16,7 @@ const Header = () => (
       <p>Step into a world where creativity meets passion. With me, let's explore the endless possibilities of technology and create experiences that are not just extraordinary, but also close to the heart. Together, we'll make dreams come true.</p>
 
       <div className="gpt3__header-content__input">
-        <button type="button">  
+        <button type="button" onClick={() => window.open("https://talhakhan.me/")}>
           <svg
             height="24"
             width="24"
