@@ -16,7 +16,7 @@ const Header = () => (
       <p>Embark on a journey of innovation and creativity with me as your guide. Let's harness the power of GPT-3 OpenAI to build extraordinary experiences and bring your visions to life. Together, we'll explore the boundless possibilities of technology and craft solutions that push the boundaries of what's possible.</p>
 
       <div className="gpt3__header-content__input">
-        <button type="button">  
+      <button type="button" onClick={() => window.open("https://talhakhan.me/")}>
           <svg
             height="24"
             width="24"
