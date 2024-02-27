@@ -2,8 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     padding: 2rem 6rem;
+    z-index: 10;
+    position: fixed; /* Change this from 'relative' to 'fixed' */
+    width: 100%; /* Add this to make the navbar full width */
+    top: 0; /* Add this to stick the navbar to the top of the screen */
+    left: 0; /* Add this to align the navbar to the left of the screen */
 }
 
 .gpt3__navbar-links {
