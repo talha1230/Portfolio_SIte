@@ -55,6 +55,83 @@
 
     margin-bottom: 2rem;
 }
+.gpt3__possibility-content button {
+    -webkit-animation: puff-in-center 2s cubic-bezier(0.470, 0.000, 0.745, 0.715) both; 
+    animation: puff-in-center 2s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+     
+        display: flex;
+        align-items: center;
+        font-family: inherit;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 17px;
+        padding: 0.8em 1.3em 0.8em 0.9em;
+        color: white;
+        background: #ad5389;
+        background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+        border: none;
+        letter-spacing: 0.05em;
+        border-radius: 16px;
+      }
+      
+      button svg {
+        margin-right: 3px;
+        transform: rotate(30deg);
+        transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+      }
+      
+      button span {
+        transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+      }
+      
+      button:hover svg {
+        transform: translateX(5px) rotate(90deg);
+      }
+      
+      button:hover span {
+        transform: translateX(7px);
+      
+      
+}
+/*Animation for gpt3__header-content__input button*/
+
+/**
+ * ----------------------------------------
+ * animation puff-in-center
+ * ----------------------------------------
+ */
+ @-webkit-keyframes puff-in-center {
+    0% {
+      -webkit-transform: scale(2);
+              transform: scale(2);
+      -webkit-filter: blur(4px);
+              filter: blur(4px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes puff-in-center {
+    0% {
+      -webkit-transform: scale(2);
+              transform: scale(2);
+      -webkit-filter: blur(4px);
+              filter: blur(4px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
 
 @media screen and (max-width: 950px) {
     .gpt3__possibility {
