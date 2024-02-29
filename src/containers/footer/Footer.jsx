@@ -1,5 +1,5 @@
 import React from 'react';
-import gpt3Logo from '../../logo.svg';
+import gpt3Logo from '../src/assets/cat.svg';
 import './footer.css';
 
 const Footer = () => (
@@ -12,34 +12,27 @@ const Footer = () => (
       <p>Request Early Access</p>
     </div>
 
-    <div className="gpt3__footer-links">
-      <div className="gpt3__footer-links_logo">
-        <img src={gpt3Logo} alt="gpt3_logo" />
-        <p>Crechterwoord K12 182 DK Alknjkcb, <br /> All Rights Reserved</p>
-      </div>
-      <div className="gpt3__footer-links_div">
-        <h4>Links</h4>
-        <p>Overons</p>
-        <p>Social Media</p>
-        <p>Counters</p>
-        <p>Contact</p>
-      </div>
-      <div className="gpt3__footer-links_div">
-        <h4>Company</h4>
-        <p>Terms & Conditions </p>
-        <p>Privacy Policy</p>
-        <p>Contact</p>
-      </div>
-      <div className="gpt3__footer-links_div">
-        <h4>Get in touch</h4>
-        <p>Crechterwoord K12 182 DK Alknjkcb</p>
-        <p>085-132567</p>
-        <p>info@paye.net</p>
-      </div>
+    <div className="gpt3__footer-links"></div>
+    <div className="gpt3__footer-links_logo">
+      <img src={gpt3Logo} alt="gpt3_logo" />
+      <p>Your Name, <br /> All Rights Reserved</p>
     </div>
-
-    <div className="gpt3__footer-copyright">
-      <p>@2021 GPT-3. All rights reserved.</p>
+    <div className="gpt3__footer-links_div">
+      <h4>Quick Links</h4>
+      <p>About Me</p>
+      <p>Skills</p>
+      <p>Projects</p>
+      <p>Education</p>
+    </div>
+    <div className="gpt3__footer-links_div">
+      <h4>More</h4>
+      <p>Blog</p>
+      <p>Contact</p>
+    </div>
+    <div className="gpt3__footer-links_div">
+      <h4>Contact Info</h4>
+      <p>PJ, KL, Malaysia</p>
+      <p>b09230027@student,unimy,edu.my.com</p>
     </div>
   </div>
 );
