@@ -9,7 +9,7 @@ const Footer = () => (
     </div>
 
     <div className="gpt3__footer-btn">
-      <p>Request Early Access</p>
+      <p>Lets Collaborate</p>
     </div>
 
     <div className="gpt3__footer-links"></div>
